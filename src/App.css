@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background: #222;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+
+.bot-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.bot-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.discharge-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.discharge-btn:hover {
+  background: darkred;
+}
